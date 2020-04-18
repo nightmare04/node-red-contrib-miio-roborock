@@ -6,6 +6,7 @@
         "payload": "Данные",
         "options": "Параметры",
         "coordinates": "Координаты",
+        "roomid": "ID Комнат",
         "fan_speed_percent": "Скорость, %",
         "homekit_stop": "При выключении",
         "homekit_stop_help": "Ехать в док",
@@ -35,6 +36,7 @@
         "app_start_wet": "► Старт влажная",
         "app_spot": "► Старт текущая область",
         "app_zoned_clean": "► Старт зона",
+        "app_segment_clean": "Старт комната",
         "app_pause": "❙❙ Пауза",
         "app_stop": "◼ Стоп",
         "app_stop_dock": "◼ Стоп & Док",
@@ -77,5 +79,3 @@
         "reset_consumable": "Сброс расходников"
     }
 }
-
-

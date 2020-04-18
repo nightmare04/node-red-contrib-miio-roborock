@@ -113,6 +113,12 @@ module.exports = function(RED) {
                                 }
                                 break;
 
+                            case "app_segment_clean":
+                                if (node.config.payloadType === 'vacuum_payload') {
+                                    payload = node.config.roomid;
+                                }
+                                break;
+
                             case "set_custom_mode":
                                 if (node.config.payloadType === 'vacuum_payload') {
                                     payload = parseInt((node.config.fan_speed));
